@@ -1,0 +1,193 @@
+#subdomain-title  {display: none;}
+
+.main-content #btn-container {padding: 0.7em 1.5em 0.3em; margin-bottom: 30px;}
+
+/*-------------------HEADER---------------------*/
+.main-content #btn-container #pub-btn-header {border-bottom: 2px solid #333; padding-bottom: 5px;}
+.main-content #btn-container #pub-btn-header img {border: none; float: left;}
+.main-content #btn-container #pub-btn-header > #topnav {font-family: helvetica, arial, sans-serif; min-width: 290px; padding: 0; color: #666; float: right; line-height: 100%;  margin:32px 0 0;}
+.main-content #btn-container #pub-btn-header #topnav li {float: left; background: none; list-style: none outside none;  margin: 0; margin-left:15px; position: relative; display: inline; z-index: 25;}
+.main-content #btn-container #pub-btn-header #topnav li a{color: #333; display: block; font-weight: bold; margin: 0; padding: 8px 10px; text-decoration: none;}
+.main-content #btn-container #pub-btn-header #topnav .current a, .main-content #btn-container #pub-btn-header #topnav li:hover > a {background: none; color: #526cb4; }
+.main-content #btn-container #pub-btn-header #topnav li:hover > ul {display: block; z-index: 25;}
+.main-content #btn-container #pub-btn-header #topnav ul a:hover { background: #fff; color: #333;}
+.main-content #btn-container #pub-btn-header #topnav ul {background: #fff; border: 1px solid #ccc; box-shadow: 0 8px 6px rgba(0, 0, 0, 0.2); border-top: none; display: none;  left: 10px;  margin: 0;  padding: 10px 5px 20px; position: absolute; top: 25px; width: 200px; left: -12px; z-index: 25;}
+.main-content #btn-container #pub-btn-header #topnav ul li {float: left; margin-left: 10px; padding-left: 0; border-bottom: 1px dotted #ccc; width: 175px;}
+.main-content #btn-container #pub-btn-header #topnav ul li:hover { border-bottom: 1px dotted #526cb4;}
+.main-content #btn-container #pub-btn-header #topnav ul li a {font-weight: normal; font-size: 14px; font-family: Helvetica, Arial,sans-serif;}
+.main-content #btn-container #pub-btn-header #topnav ul li a:hover {color: #526cb4;}
+
+
+.main-content #btn-container #pub-btn-header form { width: 170px; float: right; margin-top: 35px;display: flex;}
+.main-content #btn-container #pub-btn-header form #search-secondary-nav-query {background: #EFEFEF; border: 1px solid #CCCCCC; margin: 0; padding: 2px 0 2px 5px; width: 134px;}
+.main-content #btn-container #pub-btn-header form #search-secondary-nav-submit {background: #000; border: 1px solid #000000; color: #FFFFFF; margin: 0; padding: 1px; vertical-align: middle; font-size: 10px; font-weight: bold;}
+
+
+
+/*----------------HOMEPAGE ARTICLES---------------*/
+#btn-featured-article, #btn-recent-articles {float: left;}
+#btn-featured-article div, #btn-recent-articles div {padding: 30px 15px 15px 15px;}  
+#btn-featured-article div { border: #ccc solid 1px; border-top: none; padding-bottom: 20px; }
+#btn-featured-article {width: 588px; margin: 20px 19px 20px 0;}
+#btn-recent-articles {width: 303px; background: #e7ecf3; margin: 20px 0 40px 0;}
+
+.main-content #btn-container .content-tab-label {color: #fff; margin: -41px 0 6px 15px; padding-top: 6px; text-transform: uppercase; font-weight: bold;font-size: 0.863em; font-family: helvetica, arial, sans-serif;background-color: #5971b7 }
+.main-content #btn-container .content-tab-label span {color: #fff; font-weight: normal;}
+
+#btn-featured-article div img.featured-img {border: 1px solid #ccc; margin-bottom: 20px;}
+#btn-featured-article .btn-theme-label {background: #990000; color: #fff; text-transform: uppercase; font-size: 11px; padding: 4px 6px; width: 150px; margin-bottom: 10px; display: none;}
+.main-content #btn-container #btn-featured-article div  h3 {font-size: 16px; color: #666;}
+.main-content #btn-container #btn-featured-article div  h3 a {text-decoration:none; color: #000;  font-size: 19px; font-family:Arial, Helvetica, sans-serif;}
+
+.main-content #btn-container #btn-recent-articles div .recent-article-brief {padding: 0; margin-bottom: 50px;}
+
+.main-content #btn-container #btn-recent-articles div  h4 a {text-decoration:none; color: #000; font-weight: bold; font-size: 13px; font-family:Arial, Helvetica, sans-serif;}
+.main-content #btn-container #btn-featured-article div h3 a:hover, #btn-recent-articles div h4 a:hover {text-decoration: underline; background: none;}
+
+.main-content #btn-container #btn-featured-article .btn-theme , .main-content #btn-container  #btn-recent-articles .btn-theme, .main-content #btn-container #btn-featured-article  a:visited.btn-theme, .main-content #btn-container  #btn-recent-articles  a:visited.btn-theme{text-transform: uppercase; color: #3366CC; text-decoration: none; margin-bottom: 0; font-size: 11px; font-family: Helvetica, Arial, sans-serif;}
+.main-content #btn-container #btn-featured-article a:hover.btn-theme , .main-content #btn-container  #btn-recent-articles a:hover.btn-theme {text-decoration: underline;}
+
+.main-content #btn-container  a.read-more-link, .main-content #btn-container  a.read-more-link-right {margin-top: -5px; font-style: italic; text-decoration: underline; margin-bottom: 15px; color: #36C; font-family: "Times New Roman", Times, serif;}
+.main-content #btn-container  a:hover.read-more-link, .main-content #btn-container  a:hover.read-more-link-right {text-decoration: underline; background: none;}
+.main-content #btn-container  a.read-more-link-right {float: right; margin-top: 4px;} 
+ 
+/*----------------ARTICLE STYLES---------------*/
+.main-content #btn-container #main-article {width: inherit;}
+.main-content #btn-container .btn-theme-label, .main-content #btn-container .btn-theme-label-long {color: #526cb4; font-family: tahoma,serif; font-size: 14px; letter-spacing: 5px;  margin: -14px 300px 0; padding: 5px 0; text-align: center; text-transform: uppercase; width: inherit; background: #fff; font-weight: bold;}
+.main-content #btn-container #main-article .ruler {border-bottom: 1px dotted #526cb4; width: auto; margin: 15px 160px 0;}
+#btn-issue-label {text-align: center; color: #526cb4; margin-top: 30px;}
+.main-content #btn-container .btn-theme-label-long {margin: -14px 256px 0;}
+
+
+.main-content #btn-container #main-article  h1 {font-size: 30px; text-align:left; color: #000; line-height: 33px;}
+.main-content #btn-container #main-article  h2 {font-size: 25px; text-align:left; color: #000; line-height: 29px; border-bottom: none;}
+.main-content #btn-container #main-article  h3, 
+.main-content #btn-container  #main-article h3 a {font-size: 21px; text-decoration:none; color: #000; font-family:Arial, Helvetica, sans-serif; margin-bottom: 6px;  font-weight: bold; border-bottom:none;}
+.main-content #btn-container #main-article  h4 {font-size: 16px;color: #000; font-weight: bold; font-family:Arial, Helvetica, sans-serif; margin-top: 20px; }
+.main-content #btn-container #main-article  h5,
+.main-content #btn-container #main-article .citation h5 {font-size: 12px; text-align:left;}
+.main-content #btn-container #main-article p.btn_author {font-size: 0.934em; font-style: italics;}
+
+ 			/*--------------blue side-box-----------*/
+.main-content #btn-container #main-article .btn-related-box {width: 280px; float: right; margin-left: 10px; margin-bottom: 10px;}
+.main-content #btn-container #main-article .btn-related-box div {background: #E7ECF3; padding: 15px 20px; margin-top: 12px;}
+.main-content #btn-container #main-article .btn-related-box p {line-height: 1.4em;}
+.main-content #btn-container #main-article .btn-related-box p.pdf-link {margin: 15px 0;}
+.main-content #btn-container #main-article .btn-related-box p.pdf-link a img {margin-left: 5px;}
+.main-content #btn-container #main-article .btn-related-box a:hover {background: none;}
+.main-content #btn-container #main-article .btn-related-box a, .main-content #btn-container #main-article .btn-related-box a:visited {color: #3366CC;}
+.main-content #btn-container #main-article .btn-related-box h5 {text-align:left; font-size: 13px; font-weight: bold; color: #000; padding-top: 10px; }
+.main-content #btn-container #main-article .btn-related-box ul {padding: 0; margin-bottom: 10px;}
+.main-content #btn-container #main-article .btn-related-box ul li {padding-bottom: 6px; line-height: 1.4em;}
+			/*----------------table ---------------
+.main-content #btn-container #main-article table.regular {width: 100%; font-family: helvetica, arial, sans-serif; font-size: 100%; margin: 0 0 30px 0;}
+.main-content #btn-container #main-article table.regular caption {color: #000000; font-size: 15px; font-weight: bold; margin-bottom: 0; padding: 10px 0; text-align: center;	border: 1px solid #AAAAAA;	border-bottom: none; background: #efefef;}
+.main-content #btn-container #main-article table.regular tbody tr.gray td {background-color: #efefef;}
+.main-content #btn-container #main-article table.regular tbody td {border-top: none; border-bottom: none;}
+.main-content #btn-container #main-article table.regular tbody tr.gray td.left, .main-content #btn-container  #main-article  table.regular tbody td.left {text-align: left; padding-left: 10px; width: 25%; font-weight: bold; }
+.main-content #btn-container #main-article table.regular td {padding: 6px;}
+.main-content #btn-container #main-article table.regular tbody th {background-color: #EEF4FF; text-align: center;}
+.main-content #btn-container #main-article table.regular thead th, .main-content #btn-container  #main-article table.regular tbody .headings th {background: #EEF4FF;}
+.main-content #btn-container #main-article table.regular tbody .headings th {text-align: center;}
+.main-content #btn-container #main-article table.regular tfoot p {line-height: 1.5em; font-size: 11px; color: #666;}
+.main-content #btn-container #main-article table.regular tfoot sup {color: #000;}
+			----------------footnotes------------*/
+.main-content #btn-container #main-article	#btn-top a {color: #526cb4;}
+			/*-----------footnotes/glossary-----------*/
+.main-content #btn-container ul.tabs { border-bottom: 6px solid #506A80; width: inherit; padding-top: 40px;}
+.main-content #btn-container ul.tabs a.current {-moz-border-bottom-colors: none; -moz-border-image: none; -moz-border-left-colors: none; -moz-border-right-colors: none; -moz-border-top-colors: none;  background-color: #506A80 !important; background-image: url("/images/jquerytools/ooh_tab_background_on.png"); border-color: #506A80; border-style: solid; border-width: 1px 1px 6px;	}	
+.main-content #btn-container ul.tabs a { background-color: #EEEEEE; background-image: url("/images/jquerytools/tab_background_off.png"); background-position: center center; background-repeat: repeat-x;-moz-border-bottom-colors: none; -moz-border-image: none; -moz-border-left-colors: none; -moz-border-right-colors: none; -moz-border-top-colors: none; border-color: #506A80; border-style: solid;border-width: 1px 1px 6px;}
+.main-content #btn-container ul.tabs a:hover {background-color: #506A80!important;}
+.main-content #btn-container #btn-footnotes, .main-content #btn-container #btn-glossary {padding: 15px;}
+.main-content #btn-container #btn-footnotes p, .main-content #btn-container #btn-glossary dl  {font-size: 0.862em; color: #333; line-height: 1.5em; font-family: Helvetica, Arial, sans-serif; }
+.main-content #btn-container #btn-glossary dl {margin: 0;  padding: 0;}
+.main-content #btn-container #btn-glossary dd {margin-bottom: 10px;}
+
+
+ .clear {clear: both;}
+
+
+
+/*--------------------ARCHIVE TABLES--------------*/
+.main-content #btn-container .dataTables_wrapper {margin-top: 20px;}
+.main-content #btn-container .dataTables_filter {font-family: helvetica,sans-serif; font-size: 12px; font-weight: bold; margin-top: 5px;}
+.main-content #btn-container .dataTables_filter input {border: 1px solid #666; padding: 3px 5px; width: 158px;}
+
+.main-content #btn-container #btn_archive_table.display {font-size: 12px; margin-top: 10px; z-index:2;}
+.main-content #btn-container #btn_archive_table.display td {padding: 8px 15px;}
+.main-content #btn-container table.display thead th {text-align:left;}
+.main-content #btn-container tr.even td.sorting_1, .main-content #btn-container tr.even {background-color: #ffffff;}
+.main-content #btn-container table tbody tr.greenbar td, .main-content #btn-container tr.odd {background-color: #efefef;}
+.main-content #btn-container tr.odd td.sorting_1 {background-color: #efefef;}
+.main-content #btn-container table.display tbody a {color: #3366CC!important;}
+
+.main-content #btn-container .dataTables_info, .main-content #btn-container .dataTables_length {float: left; font-family: helvetica,sans-serif; font-size: 12px; font-weight: bold; margin: 10px 0 15px 0; width: 50%;}
+.main-content #btn-container .dataTables_length select {border: 1px solid #666; padding-left:3px;}
+.main-content #btn-container .dataTables_length select option {padding: 2px 0 0 7px;}
+
+.main-content #btn-container .dataTables_paginate {margin-top: 10px;}
+
+
+/*--------------------THEME LISTS--------------*/
+.main-content #btn-container .btn_theme_list {margin: 20px 0 40px 0; line-height: 1.6em;}
+.main-content #btn-container .btn_theme_list ul {margin-left: 0; padding-left: 0;}
+.main-content #btn-container .btn_theme_list ul li {list-style: none; padding-left: 0;}
+.main-content #btn-container .btn_theme_list h3 {color: #000; }
+.main-content #btn-container .btn_theme_list a {color: #526cb4;}
+
+
+/*--------------------ARCHIVE LISTS--------------*/
+.main-content #btn-container .btn_archive_list {margin: 20px 0 40px 0; line-height: 1.6em;}
+.main-content #btn-container .btn_archive_list ul {margin-left: 0; padding-left: 0;}
+.main-content #btn-container .btn_archive_list ul li {list-style: none; padding-left: 0; padding-bottom:3px;}
+.main-content #btn-container .btn_archive_list h3 {color: #000; }
+.main-content #btn-container .btn_archive_list h4 {margin-top: 15px;}
+.main-content #btn-container .btn_archive_list a {color: #526cb4; }
+/*--------------------ARCHIVE SIDEBAR--------------*/
+.main-content #btn-container .btn-archive-sidebar+h4{
+	margin-top: 0px;	
+}
+.main-content #btn-container .btn-archive-sidebar{
+	float: right;
+    background-color: #dee8ed;
+    padding: 4px;
+    color: #000;
+	width:22em;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.main-content #btn-container .btn-archive-sidebar .sidebar-title{
+	padding: 8px 0 12px;
+    color: #2f5878;
+	text-transform:uppercase; 
+	text-align:center;
+}
+.main-content #btn-container .btn-archive-sidebar .sidebar-content{
+	background-color:#FBFDFF;
+	padding:12px;
+	font-size:14px;
+}
+.main-content #btn-container .btn-archive-sidebar a{
+    color: #000;
+	display:block;
+	padding:5px 0;
+}
+.main-content #btn-container .btn-archive-sidebar.date-archive a{
+	display: inline-block;
+	margin-right:22px;
+}
+.main-content #btn-container .btn-archive-sidebar.date-archive a:nth-child(5n) {
+	margin-right:0px;
+}
+.main-content #btn-container .btn-archive-sidebar a:hover{
+    color:#526cb4;
+	text-decoration:underline;
+}
+#btn-container #btn_archives_link div {
+	border-bottom: 1px solid #600;
+	border-top: 1px solid #600;
+}
+#btn-container .btn-rule {
+    border-top: 1px solid #CCCCCC;
+    padding-top: 10px;
+}
